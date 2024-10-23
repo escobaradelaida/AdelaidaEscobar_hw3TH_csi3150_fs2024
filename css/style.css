@@ -1,0 +1,102 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/*reset browser*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather";
+}
+
+header{
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.hero-section{
+    background-image: url(../assets/img/hero-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /*used to center the headings and to force them to be in column positioning*/
+    display: flex;
+    flex-direction: column;
+    /**/
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero-section h1{
+    color: white;
+    font-size: 10rem;
+    margin-bottom: 100px;
+    
+}
+
+.hero-section h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.arrow-down-1{
+    margin-top: 20px;
+    height: auto;
+    color: white;
+}
+
+.arrow-down-1 i{
+    /*enlarges the icon*/
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+.question-section{
+    background-image: url(../assets/img/question-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    height: 100vh;
+}
+
+.question-section h1{
+    font-size: 4rem;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 20px;
+    color: white;
+}
+
+.answers {
+    flex: 1;
+    font-size: 30px;
+    color: white;
+}
+
+.answers p{
+    margin: 50px 0; /* Add horizontal spacing between paragraphs */
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 400px;
+    margin-left: 36px;
+    left: 50%;
+    background-color: #e2c852; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+}
