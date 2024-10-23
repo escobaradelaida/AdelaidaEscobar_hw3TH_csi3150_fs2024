@@ -100,3 +100,34 @@ button {
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Change cursor on hover */
 }
+
+/*section 3 with the gallery evenly spaced*/
+.gallery{
+    background-image: url(../assets/img/lake-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    height: 100vh;
+}
+
+.gallery h1{
+    color: white;
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    font-size: 4rem;
+    justify-content: center;
+}
+
+.three-imgs img{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
