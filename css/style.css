@@ -49,21 +49,21 @@ header{
 }
 
 .hero-section h1{
-    color: white;
+    color: #ffffff;
     font-size: 10rem;
     margin-bottom: 100px;
     
 }
 
 .hero-section h2{
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
 }
 
 .arrow-down-1{
     margin-top: 20px;
     height: auto;
-    color: white;
+    color: #ffffff;
 }
 
 .arrow-down-1 i{
@@ -115,7 +115,7 @@ button {
     margin-left: 36px;
     left: 50%;
     background-color: #e2c852; /* Button background color */
-    color: white; /* Button text color */
+    color: #ffffff; /* Button text color */
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Change cursor on hover */
 }
@@ -135,12 +135,12 @@ button {
 
 /*subject to change*/
 .gallery h1{
-    color: white;
+    color: #ffffff;
     background-color: rgba(252, 227, 196, 0.2);
     /*test line for font manipulation
     https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
     border-style: ridge;
-    border-color: black;
+    border-color: #000000;
     padding: 10px;
     text-shadow: rgb(80, 79, 77) 1px 0 10px;
     top: 5px;
@@ -180,7 +180,7 @@ button {
     left: 50%;
     transform: translateX(-50%); /* Center the caption horizontally */
     text-align: center;
-    color: white;
+    color: #ffffff;
     background-color: rgba(10, 10, 10, 0.5);
 }
 
@@ -215,17 +215,17 @@ button {
 
 /*might change button styling*/
 .read-more2{
-    position: absolute; /* Absolute positioning */
-    bottom: 40px; /* 30px from the bottom of the section */
+    position: absolute; 
+    bottom: 40px; 
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Correct centering */
     padding: 10px 20px; /* Button padding */
-    background-color: #e2c852; /* Button color */
-    color: white; /* Text color */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #e2c852; 
+    color: #ffffff; 
+    border-radius: 5px; 
     cursor: pointer; /* Pointer on hover */
-    font-size: 1.2rem; /* Font size */
-    border: none; /* Remove default border */
+    font-size: 1.2rem; 
+    border: none; /* Remove border */
 }
 
 /*section 4*/
@@ -246,14 +246,14 @@ button {
     margin-right: 80px;
     justify-content: center;
     padding: 30px;
-    color: white;
+    color: #ffffff;
 }
 
 .answers2{
     font-size: 20px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: aliceblue;
+    color: #f0f8ff;
     
 }
 
@@ -285,7 +285,7 @@ button {
     position: relative;
     font-size: 3rem;
     z-index: 2;
-    color: white;
+    color: #ffffff;
     text-align: center;
     margin: 0;
     top: 180px;
@@ -295,7 +295,7 @@ button {
     position: relative;
     font-size: 20px;
     z-index: 2;
-    color: white;
+    color: #ffffff;
     text-align: center;
     margin: 0;
     top: 205px;
@@ -329,7 +329,7 @@ button {
     justify-content: center;
     max-width: 500px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
     line-height: 1.5;
 }
@@ -361,7 +361,7 @@ button {
     top: 50%;
     transform: translateY(-50%);
     font-size: 3rem;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     z-index: 10; /* Ensure the arrows are on top of the images */
 }
@@ -399,7 +399,7 @@ button {
     flex-direction: column;
     flex: 1;
     width: 45%;
-    color: white;
+    color: #ffffff;
 }
 
 .contact-info h1 {
@@ -431,7 +431,7 @@ button {
     width: 45%; /* Takes 45% of the container width */
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #ffffff;
 }
 
 .contact-form label {
@@ -452,7 +452,7 @@ button {
 .contact-form input[type="submit"] {
     width: auto;
     background-color: #e2c852;
-    color: white;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     padding: 10px 20px;
