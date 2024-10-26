@@ -15,6 +15,23 @@ header{
     overflow: hidden; /* Hide any overflow */
 }
 
+/*logo to place on top of Michigan*/
+.logo{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img{
+    max-width: 100px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 30%;
+}
+
 .hero-section{
     background-image: url(../assets/img/hero-img.jpg);
     background-position: center;
@@ -72,19 +89,21 @@ header{
     flex: 1;
     margin-left: 50px;
     margin-right: 20px;
-    color: white;
+    color: #ffffff;
 }
 
 .answers {
     flex: 1;
     font-size: 30px;
-    color: white;
+    color: #ffffff;
+    
 }
 
 .answers p{
     margin: 50px 0; /* Add horizontal spacing between paragraphs */
-    color: white;
+    color: #ffffff;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.40);
 }
 
 button {
@@ -117,7 +136,7 @@ button {
 /*subject to change*/
 .gallery h1{
     color: white;
-    background-color: rgba(252, 227, 196, 0.5);
+    background-color: rgba(252, 227, 196, 0.2);
     /*test line for font manipulation
     https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
     border-style: ridge;
